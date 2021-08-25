@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@+id/CardListFragment">
+
+    <fragment
+        android:id="@+id/CardListFragment"
+        android:name="com.dio.businesscard.presentation.ui.listCards.CardListFragment"
+        android:label="list_card_fragment"
+        tools:layout="@layout/fragment_card_list">
+        <action
+            android:id="@+id/action_CardListFragment_to_CardSaveFragment"
+            app:destination="@id/CardSaveFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/CardSaveFragment"
+        android:name="com.dio.businesscard.presentation.ui.insertCards.CardSaveFragment"
+        android:label="save_card_fragment"
+        tools:layout="@layout/fragment_card_save">
+    </fragment>
+</navigation>

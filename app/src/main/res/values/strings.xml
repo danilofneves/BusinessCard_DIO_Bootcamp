@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Business Card</string>
+    <string name="title_feed_card">Cartão de Visita</string>
+    <string name="title_new_card">Novo Cartão</string>
+
+    <string name="label_name">Nome*</string>
+    <string name="label_telefone">Telefone*</string>
+    <string name="label_email">E-mail*</string>
+    <string name="label_empresa">Empresa*</string>
+    <string name="label_fundo_cor">Cor do Cartão</string>
+    <string name="label_text_cor">Cor do Texto</string>
+    <string name="label_share_to">Compartilhar</string>
+
+    <string name="btn_confirm">Confirmar</string>
+
+    <string name="error_nome_vazio">Nome deve ser preenchido!</string>
+    <string name="error_telefone_vazio">Telefone deve ser preenchido!</string>
+    <string name="error_email_vazio">E-mail deve ser preenchido!</string>
+    <string name="error_empresa_vazio">Empresa deve ser preenchido!</string>
+
+    <string name="error_email_invalido">Email deve ser preenchido!</string>
+
+    <string name="error_cadastro_cartao">Tivemos um problema ao cadastrar o seu cartão!</string>
+    <string name="error_lista_cartao">Tivemos um problema ao acessar seus cartões!</string>
+
+    <string name="sucessfull_msg">Cadastrado com Sucesso!</string>
+</resources>
